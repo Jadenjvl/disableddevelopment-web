@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payments - Disabled Development</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #111;
+            padding: 15px 50px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            color: #b19cd9; /* Light purple */
+        }
+
+        .container {
+            padding: 100px 20px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .payment-methods {
+            font-size: 18px;
+            margin: 20px 0;
+            color: #ddd;
+        }
+
+        .btn {
+            margin: 20px;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            background-color: #b19cd9; /* Light purple background */
+            color: black;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #9f7ac3; /* Darker purple on hover */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo" id="logo">
+            <span id="staticText">DD</span>
+            <span class="text" id="dynamicText">Disabled Development</span>
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="payments.html">Payments</a>
+            <a href="our-work.html">Our Work</a>
+            <a href="contact-us.html">Contact Us</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Accepted Payment Methods</h1>
+        <div class="payment-methods">
+            <p>Cash App</p>
+            <p>PayPal</p>
+            <p>Capital Express</p>
+        </div>
+        <a href="https://discord.gg/3Xx7AJba4k" target="_blank">
+            <button class="btn">Buy Now</button>
+        </a>
+    </div>
+</body>
+</html>
